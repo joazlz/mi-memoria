@@ -38,7 +38,7 @@ public class main extends JFrame {
         List<JButton> buttons = new ArrayList<>();
         int i = 0;
         int cartas_cantidad=10;
-        String[][] cartasJugadas = new String[cartas_cantidad][2];
+        var cartasJugadas = new String[cartas_cantidad][2];
         
         for(int j=0;j<cartas_cantidad;j++){
             cartasJugadas[j]=cartas[j];
@@ -114,7 +114,6 @@ public class main extends JFrame {
 
     public static void main(String[] args) {
         main a = new main();
-
     }
 
 }
