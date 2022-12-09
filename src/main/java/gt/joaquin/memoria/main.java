@@ -34,7 +34,9 @@ public class main extends JFrame {
         JPanel panel = new JPanel();
         //menu panel.setLayout(new BoxLayout(panel,BoxLayout.Y_AXIS)); http://chuwiki.chuidiang.org/index.php?title=Uso_de_Layouts
         panel.setLayout(new GridLayout(3, 1));
-        Icon icono = (new javax.swing.ImageIcon(new javax.swing.ImageIcon(getClass().getResource("/gt/joaquin/memoria/img/posterior.png")).getImage().getScaledInstance(100, 140, Image.SCALE_DEFAULT))); // NOI18N
+        Icon icono = (new javax.swing.ImageIcon(
+                    new javax.swing.ImageIcon(getClass().getResource("/gt/joaquin/memoria/img/posterior.png")
+            ).getImage().getScaledInstance(100, 140, Image.SCALE_DEFAULT))); // NOI18N
         List<JButton> buttons = new ArrayList<>();
         int i = 0;
         int cartas_cantidad=10;
